@@ -19,11 +19,11 @@ if (a%2==0 || a%3==0){
 }
 else{
   console.log("your no id divisible by 2")
-}*/
+}*
 
 // to print table
 
-const prompt = require('prompt-sync')();
+/*const prompt = require('prompt-sync')();
 let n;
 n = prompt("enter the value of n");
 n=Number.parseInt(n);
@@ -33,4 +33,9 @@ for(let i=1; i<=10; i++){
   console.log((i),"*",(n),"=",sum);
 }
 // console.log("i " +n+ "n" ,sum);
+*/
+
+
+//for-in loop practice
+
 
