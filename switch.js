@@ -22,7 +22,7 @@ else{
 }*/
 const prompt = require('prompt-sync')();
 let n;
-n = prompt("enter the value of n ");
+n = prompt("enter the value of n");
 n=Number.parseInt(n);
 for(let i=0; i<=10; i++){
   sum =n*i;
