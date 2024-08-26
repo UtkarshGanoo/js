@@ -38,4 +38,27 @@ for(let i=1; i<=10; i++){
 
 //for-in loop practice
 
+/*let obj = {
+   seeta:'ram',
+   radha: 'krishna',
+   parvati: 'shiv',
+   laxmi : 'vishnu',
+
+}
+for(let bhagwan in obj){
+  console.log("this is " + bhagwan + "wife of" +obj[bhagwan]);
+}*/
+
+/*let b;
+let obj = {
+  seeta:'60',
+  radha: '40',
+  parvati: '50',
+  laxmi : '70',
+
+}
+for( b in obj){
+ console.log(b + ":" +obj[b]);
+}*/
+
 
