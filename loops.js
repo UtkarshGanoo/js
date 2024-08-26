@@ -52,6 +52,7 @@ for(let bhagwan in obj){
   console.log("this is " + bhagwan + "wife of" +obj[bhagwan]);
 }*/
 
+/*
 let b;
 let name = {
   seeta: '60',
@@ -62,8 +63,17 @@ let name = {
 }
 for (b in name) {
   console.log(b + ":" + name[b]);
-}
+}*/
 
-// for of loop
+//while loop
+/*const prompt = require('prompt-sync')();
+let a = prompt("enter the value of a");
+ a= Number.parseInt(a);
+do{
+    let i=0;
+  console.log(i);
+  i++;
+}
+while(i<=a)*/
 
 
