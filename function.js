@@ -46,3 +46,32 @@ const mean = (a,b,c,d,e)=>{
     return (a+b+c+d+e)/5;
 }
 console.log(mean(5,6,7,8));*/
+/*
+let my_game = (num) =>{
+//   return let prompt = require('prompt-sync')();
+  let number;
+  let guess = Math.floor(Math.random() * 100);
+  let attmp=0;
+  number=Number.parseInt(number);
+  
+  while(number!=guess ){                       
+      number= prompt("Enter The Number");
+  
+  
+      if(number > guess){
+          console.log ("your no is grater then guess");
+          attmp++;
+      } 
+      else if (number < guess){
+          console.log("your no is less then guess");
+          attmp++;  
+      }
+      else if (number==guess){
+          console.log("congratulation! your guess is right ",attmp);
+      }  
+  }
+  
+}
+
+console.log(my_game)*/
+

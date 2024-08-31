@@ -1,8 +1,26 @@
+let prompt = require('prompt-sync')();
 let number;
-let guess ;
+let guess = Math.floor(Math.random() * 100);
 let attmp=0;
-number.math.random((number)=>{
-    return number
+number=Number.parseInt(number);
 
-})
-console.log(number)
+while(number!=guess ){                       
+    number= prompt("Enter The Number");
+
+
+    if(number > guess){
+        console.log ("your no is grater then guess");
+        attmp++;
+    } 
+    else if (number < guess){
+        console.log("your no is less then guess");
+        attmp++;  
+    }
+    else if (number==guess){
+        console.log("congratulation! your guess is right ",attmp);
+    }  
+}
+
+
+
+
