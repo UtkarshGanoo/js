@@ -1,9 +1,6 @@
 document.body.style.backgroundColor = 'Aqua'
-// let arr = Array.from(document.body.firstchild)
-// a=document.firstChild
-// console.log(a.documentParentNode)
-// console.log(a.documentParenteet)
-// let first= document.div.setAttribute("class","myid")
-// ($0.hidden) =false
-let a = document.firstChild.setAttribute('ganoo')
-console.log(utkarsh.dataset)
+let a = document.getElementsByTagName("div")[0]
+// a.innerHTML= a.innerHTML +'<h1> hello utkarsh</h1> '
+let  div = document.createElement('div');
+div.innerHTML = '<h1>HELLO WORLD</h1>';
+a.appendchild(div)
