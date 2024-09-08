@@ -1,4 +1,4 @@
 document.body.style.backgroundColor = 'Aqua'
-setTimeout(() => {
+setTimeout(function(){
     alert("my name is utkarsh ganoo")
-}, 2000);
+}, 5000);
