@@ -1,6 +1,6 @@
 // setTimeout(function(){
 //     console.log('hey i am utkarsh');
-    
+
 // }, 11000);
 
 //callback
@@ -30,25 +30,25 @@ setTimeout(sum,3000,47,5)*/
 
 //callback hell problem
 
-function getdata(dataid,getnxtdata){
-    setTimeout(()=>{
-        console.log("data",dataid);
-        if(getnxtdata){
+function getdata(dataid, getnxtdata) {
+    setTimeout(() => {
+        console.log("data", dataid);
+        if (getnxtdata) {
             getnxtdata();
         }
-    },3000);
+    }, 3000);
 }
 
 console.log("your data is generating.........!")    //-------------------------------------//|
-getdata(1,()=>{                                                                            //|
+getdata(1, () => {                                                                         //|
     console.log("your data is getting 1............!")                                     //|
-    getdata(2,()=>{                                                                        //|
+    getdata(2, () => {                                                                     //|
         console.log("your data is getting 2............!")                                 //|
-        getdata(3,()=>{                                                                    //|----------------------------callback hell problem (pyramid)
+        getdata(3, () => {                                                                 //|----------------------------callback hell problem (pyramid)
             console.log("your data is getting 3............!")                             //|
-            getdata(4,()=>{                                                                //|
+            getdata(4, () => {                                                             //|
                 console.log("your data is getting 4............!")                         //|
-                getdata(5,()=>{                                                            //|
+                getdata(5, () => {                                                         //|
                     console.log("your data is getting 5............!")//-------------------//|
 
                 });
