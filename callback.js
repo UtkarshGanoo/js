@@ -30,7 +30,7 @@ setTimeout(sum,3000,47,5)*/
 
 //callback hell problem
 
-function getdata(dataid, getnxtdata) {
+/*function getdata(dataid, getnxtdata) {
     setTimeout(() => {
         console.log("data", dataid);
         if (getnxtdata) {
@@ -55,4 +55,11 @@ getdata(1, () => {                                                              
             });
         });
     });
-});
+});*/
+ 
+//promises
+
+let promise= new promise((resolve,reject)=>{
+    console.log("het! my name is utkarsh")
+    resolve(123)
+})
