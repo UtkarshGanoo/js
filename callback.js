@@ -59,7 +59,7 @@ getdata(1, () => {                                                              
  
 //promises
 
-let promise= new promise((resolve,reject)=>{
-    console.log("het! my name is utkarsh")
-    resolve(123)
+let promise = new Promise((resolve,reject)=>{
+resolve(123)
+alert("hey!! utkarsh ganoo")
 })
