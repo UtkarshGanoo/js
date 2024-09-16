@@ -6,6 +6,3 @@ return Response.json()
 .then((value2)=>{
     console.log(value2)
 })*/
-
-
-
