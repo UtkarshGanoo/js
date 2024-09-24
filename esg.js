@@ -13,21 +13,4 @@ if(choice>game.length){
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 } 
