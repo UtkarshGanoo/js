@@ -1,4 +1,4 @@
-let prompt = require('promp-syn')();
+let prompt = require('promp-sync')();
 let choice ;
 let com = Math.floor(Math.random()*100);
 let game = 'snake', 'water' , 'gun';

@@ -60,3 +60,25 @@ sub.submit()*/
 
 
 //inheritance & extands keyword
+
+
+class animal {
+    eating(){
+        console.log("this is eating")
+    }
+    running(){
+        console.log("this is eating")
+    }
+    dancing(){
+        console.log("this is dancing")
+    }
+    sleeping(){
+        console.log("this is eating")
+    }
+}
+class dog extends animal(){
+
+}
+let m= new.()
+// let n= new.animal()
+dog.m()
