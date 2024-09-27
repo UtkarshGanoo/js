@@ -62,6 +62,7 @@ sub.submit()*/
 //inheritance & extands keyword
 
 
+/* 
 class animal {
     eating(){
         console.log("this is eating")
@@ -77,8 +78,67 @@ class animal {
     }
 }
 class dog extends animal(){
-
+    
 }
-let m= new.()
+let m = new dog();
 // let n= new.animal()
-dog.m()
+m.sleeping();
+*/
+
+// constructor with method overriding
+
+class emp{
+    
+    logout(){
+        console.log(`employe is logout `)
+    }
+    leave(){
+        console.log(`employe is leave `)
+    }
+    sick(leave){
+        console.log(`employe is request for sick ${leave} `)
+    }
+}
+
+class men extends emp{
+    login(){
+        console.log(`employe is login `)
+    }
+}
+let utkarsh = new men() 
+utkarsh.sick(4);
+utkarsh.login();
+utkarsh.logout();
+
+
+/*
+const utkarsh = new men();
+utkarsh.sick(4);
+utkarsh.login();
+utkarsh.logout();
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
