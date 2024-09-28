@@ -86,7 +86,7 @@ m.sleeping();
 */
 
 // constructor with method overriding
-
+/*
 class emp{
     
     logout(){
@@ -103,14 +103,16 @@ class emp{
 class men extends emp{
     login(){
         console.log(`employe is login `)
+    } 
+    sick(){
+        // console.log(`employe is request for sick ${leave} `)
+        super.sick(5)
     }
-}
-let utkarsh = new men() 
-utkarsh.sick(4);
+}*/
+/*let utkarsh = new emp() 
+utkarsh.sick();
 utkarsh.login();
-utkarsh.logout();
-
-
+utkarsh.logout();*/
 /*
 const utkarsh = new men();
 utkarsh.sick(4);
@@ -119,11 +121,33 @@ utkarsh.logout();
 */
 
 
+//constructor mthod overriding
+// ager child class mai koi constructor nahi banaya hai toh js engine child class mai automatically bna kar call ho jata h
+/*
+class emp{
+    
+    logout(){
+        console.log(`employe is logout `)
+    }
+    leave(){
+        console.log(`employe is leave `)
+    }
+    sick(leave){
+        console.log(`employe is request for sick ${leave} `)
+    }
+}
 
+class men extends emp{
+    sick(leave){
+        // console.log(`employe is request for sick ${leave} `)
+        super.sick(5)
+    }
+    }
 
-
-
-
+// let utakrsh = new men ()
+let utkarsh=new emp ()
+utkarsh.leave()
+utkarsh.sick(3)*/
 
 
 
