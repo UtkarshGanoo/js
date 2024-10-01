@@ -163,3 +163,21 @@ utkarsh.sick(3)*/
 }
 let j = new emp(emp.Capitalize(" ram "))
 j.walk()*/
+
+//destructurig aray
+
+/*let arr = [3,5,8,2,6]
+let [a,b,c,d]=arr;
+console.log(a,b,c,d)*/
+
+
+//spread 
+
+/*
+let obj = {
+    name:"utkarsh",
+    address:"vikas nagar",
+    mobileno:"9575335089"
+}
+console.log({...obj , name: " poorva " , address: " goyal nagar"})//it give output with changing values 
+console.log({ name: " poorva " , address: " goyal nagar" ,...obj})*///it give output without changing  any values 
