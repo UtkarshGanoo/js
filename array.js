@@ -1,4 +1,4 @@
-// to print the array iwth using for loop
+// to print the array with using for loop
 /*
 let arr=[20,400,50,80,"not",true];
 
