@@ -31,7 +31,7 @@ for(let i=1; i<=10; i++){
       |_ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _> ager ye i ko nichhe wale consolelog 
                                                              ke niche likhenge to yaha ke i ko let ki jagah var karna padega qki let kewal 
                                                                        for ke condition bolck ke liye hi chalega per ager var hota toh woh pure code ke 
-                                                                       liye hota
+                                                                         liye hota
 sum =n*i; 
  console.log((i),"*",(n),"=",sum);
 }
@@ -77,3 +77,11 @@ do{
 while(i<=a)*/
 
 
+// to add firt natural no.
+/*const n = 5;
+let sum =0 ;
+for (let i = 1;i<=n; i++){
+  sum += i
+  console.log(i ," + " ,sum) 
+ }
+ console.log("the sum of the first " ,n,"natural no. is:" , sum );*/
